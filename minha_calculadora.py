@@ -7,11 +7,15 @@ def subtrai(a, b):
 def multiplica(a, b):
     return a * b
 
+def divisao(a, b):
+    return a / b
+
 def main():
     x = int(input('x? '))
     y = int(input('y? '))
     print(f'Soma = {soma(x, y)}')
     print(f'Subtração = {subtrai(x, y)}')
     print(f'Multilicação = {multiplica(x,y)}')
+    print(f'Divisão = {divisao(x, y)}')
 
 main()
